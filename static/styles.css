@@ -1,0 +1,13 @@
+/*Your styles can go here.*/
+/*your CSS goes here*/
+input, textarea {
+    background-color: yellow;
+}
+input[name="lastname"], textarea{
+    font-weight: bold;
+}
+
+p{
+    border-style: dashed;
+    border-width: 10 px;
+}

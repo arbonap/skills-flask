@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Skills-HTML-CSS: Apply to SQYSH!</title>
+        <link rel="stylesheet" type="text/css" href="/static/styles.css">
+    </head>
+    <body>
+        <h1>
+            Sqysh Job application submittal form
+        </h1><br>
+        <p>
+            Welcome to <i>the</i> <strong>Sqysh job hunting form</strong>!<br>
+            We have many open positions throughout the company, and we'd love to
+            hear from you! We have many open positions for both engineering roles
+            and product manager roles. Just enter your name, salary requirements,
+            and type of job that interests you. Apply today!
+        </p><br>
+        <form action ="/application-form" method="POST">
+            First name: <br>
+            <input type="text" name="firstname"><br>
+            Last name:<br>
+            <input type="text" name="lastname"><br><br>
+            Salary Requirement:<br>
+            
+            <input type="number" name="salaryreq"><br><br>
+            What job are you applying to?<br>
+            <input type="radio" name="jobtype" value="software_engineer">Software Engineer<br>
+            <input type="radio" name="jobtype" value="qa_engineer">QA Engineer<br>
+            <input type="radio" name="jobtype" value="product_manager">Product Manager<br>
+
+            <input type="submit" value="Submit">
+        </form>
+        
+    </body>
+</html>
